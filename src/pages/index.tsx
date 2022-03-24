@@ -1,3 +1,3 @@
-const Home: React.FC = () => <div>index</div>;
+const Home: React.FC = () => <div>index</div>
 
-export default Home;
+export default Home
