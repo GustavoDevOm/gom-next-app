@@ -10,6 +10,7 @@ module.exports = {
     '^.+\\.(png|jpg|jpeg|gif|webp|avif|ico|bmp|svg)$': `<rootDir>/src/__mocks__/fileMock.js`,
     '^@/components/(.*)$': '<rootDir>/src/components/$1',
     '^@/pages/(.*)$': '<rootDir>/src/pages/$1',
+    '^@/services/(.*)$': '<rootDir>/src/services/$1',
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
