@@ -1,0 +1,6 @@
+{
+  "*.{ts,tsx}": [
+    "yarn eslint --fix",
+    "yarn test --watchAll=false --findRelatedTests --bail"
+  ]
+}
